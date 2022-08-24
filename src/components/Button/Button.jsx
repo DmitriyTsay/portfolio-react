@@ -2,9 +2,9 @@ import React from 'react'
 
 import './Button.scss'
 
-const Button = ({text, small, handleClick}) => {
+const Button = ({text, small, link}) => {
   return (
-    <button className={`button ${small}`}>{text}</button>
+    <a href={link}><button className={`button ${small}`}>{text}</button></a>
   )
 }
 

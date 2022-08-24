@@ -10,6 +10,7 @@ const Header = ({language}) => {
   return (
     <header>
         <div className='header' id='header'>
+            <div className='empty'></div>
             <p>Hello, I'm</p>
             <h1>Tsay Dmitriy</h1>
             <p className='gray'>Junior Frontend Developer</p>
