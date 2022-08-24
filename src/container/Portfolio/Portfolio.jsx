@@ -18,7 +18,7 @@ const Portfolio = () => {
             />
             <ProjectCard 
             description="Tetris game (JavaScript)" 
-            image='./tetris.png'
+            image='./tetris1.png'
             github='https://github.com/DmitriyTsay/TetrisJS'
             demo='https://tetris-js-tau.vercel.app/'
             />
