@@ -7,7 +7,7 @@
     width: 100%;
     min-height: 90vh;
 
-    margin-top: 100px;  
+    padding-top: 100px;  
 
     color: var(--primary-color);
 
@@ -36,6 +36,15 @@
             img:hover {
                 animation: animation-rotate 1s;
                 transform: rotate(0deg);
+            }
+
+            @media screen and (max-width: 800px) {
+                height: 345px;
+
+                img {
+                    height: 355px;
+                    width: 365px;
+                }
             }
         }
 

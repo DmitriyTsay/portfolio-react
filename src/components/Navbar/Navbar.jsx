@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className='navbar__button'><a href="#header"><AiOutlineHome /></a></div>
         <div className='navbar__button'><a href="#about"><BsPerson /></a></div>
         <div className='navbar__button'><a href="#portfolio"><MdOutlineWindow /></a></div>
-        <div className='navbar__button'><AiOutlineContacts /></div>
+        <div className='navbar__button'><a href="#contacts"><AiOutlineContacts /></a></div>
     </div>
   )
 }

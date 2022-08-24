@@ -6,6 +6,7 @@ import Header from './container/Header/Header';
 import About from './container/About/About';
 import Navbar from './components/Navbar/Navbar';
 import Portfolio from './container/Portfolio/Portfolio';
+import Contacts from './container/Contacts/Contacts';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <About />
       <div className='divider' />
       <Portfolio />
+      <div className='divider' />
+      <Contacts />
     </div>
   );
 }

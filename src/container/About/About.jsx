@@ -19,6 +19,8 @@ const About = () => {
             </div>
             <div className='about__main__text'>
                 <p>I am Frontend Web-Developer, with basic knowledge of Backend.</p>
+                <p className='gray'>Kazakhstan, Nur-Sultan</p>
+                <p className='gray'>25 years old, male</p>
                 <div className='skills'>
                   <Frontend />
                   <Backend />

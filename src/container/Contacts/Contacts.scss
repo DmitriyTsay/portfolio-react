@@ -1,0 +1,12 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    min-height: 90vh;
+
+    padding-top: 100px;  
+
+    color: var(--primary-color);
+}
