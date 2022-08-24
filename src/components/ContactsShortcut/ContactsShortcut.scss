@@ -1,0 +1,27 @@
+.contacts-shortcut {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    bottom: 50px;
+    left: 10vw;
+    color: var(--bright-color);
+
+    a {
+        color: var(--bright-color);
+    }
+
+    svg {
+        margin: 10px 0 10px 20px;
+        width: 25px;
+        height: 25px;
+    }
+
+    @media screen and (max-width: 1300px) {
+        left: 0;
+    }
+
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}
