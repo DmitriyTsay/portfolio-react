@@ -8,8 +8,8 @@ const ProjectCard = ({image, imageAlt, description, github, demo}) => {
         <img src={image} alt={imageAlt} />
         <div className='button-wrapper'>
             <h2>{description}</h2>
-            <Button text="GitHub" small="small"/>
-            <Button text="Live Demo" small="small"/>
+            <Button text="GitHub" small="small" link={github}/>
+            <Button text="Live Demo" small="small" link={demo}/>
         </div>
     </div>
   )
