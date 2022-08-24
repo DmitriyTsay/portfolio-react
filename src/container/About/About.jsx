@@ -15,7 +15,7 @@ const About = () => {
         <h2>About me</h2>
         <div className='about__main'>
             <div className='about__main__image'>
-                <img src="./me-about.jpg" alt='About me' />
+                <img src="./tsay.jpg" alt='About me' />
             </div>
             <div className='about__main__text'>
                 <p>I am Frontend Web-Developer, with basic knowledge of Backend.</p>
@@ -25,7 +25,7 @@ const About = () => {
                   <Frontend />
                   <Backend />
                 </div>
-                <Button text="Let's Talk"/>
+                <Button text="Let's Talk" link="#contacts"/>
             </div>
         </div>
     </div>
