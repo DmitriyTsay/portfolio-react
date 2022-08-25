@@ -13,6 +13,10 @@
     font-size: 1.2em;
     cursor: pointer;
 
+    @media screen and (max-width: 500px) {
+        width: 120px;
+    }
+
     &:hover {
         background: var(--bright-color);
         color: black;
