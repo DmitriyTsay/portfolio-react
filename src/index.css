@@ -15,3 +15,9 @@
     --background-second-color: #000d10;
     --white-color: #ffffff;
 }
+
+
+
+#root {
+    width: 100%;
+}
