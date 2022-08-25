@@ -19,6 +19,7 @@ function App() {
       <Portfolio />
       <div className='divider' />
       <Contacts />
+      <div className='divider' />
     </div>
   );
 }
