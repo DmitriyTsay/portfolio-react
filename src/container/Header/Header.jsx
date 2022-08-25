@@ -15,7 +15,7 @@ const Header = ({language}) => {
             <h1>Tsay Dmitriy</h1>
             <p className='gray'>Junior Frontend Developer</p>
             <div className='header__buttons'>
-                <Button text='Download CV'/>
+                <Button text='Download CV' link='https://drive.google.com/file/d/1XEFShvphIsg0c1CsJjqgsFAhjzkJTF26/view?usp=sharing'/>
                 <Button text="Let's Talk" link="#contacts" />
             </div>
             <div className='header__image'>
