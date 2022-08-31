@@ -83,6 +83,14 @@
 
                 border: 1px solid var(--bright-color);
                 border-radius: 5px;
+
+                cursor: pointer;
+
+                transition: color 0.3s;
+
+                &:hover {
+                    color: white;
+                }
             }
         }
     }
@@ -118,5 +126,11 @@
         text-decoration: none;
         margin-top: 15px;
         color: var(--primary-color);
+    }
+
+    transition: background-color 0.5s;
+
+    &:hover {
+        background: black;
     }
 }

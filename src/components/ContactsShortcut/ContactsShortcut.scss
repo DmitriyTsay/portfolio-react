@@ -9,6 +9,12 @@
 
     a {
         color: var(--bright-color);
+
+        transition: color 0.5s;
+
+        &:hover {
+            color: var(--primary-color);
+        }
     }
 
     svg {
