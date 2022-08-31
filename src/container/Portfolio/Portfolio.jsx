@@ -17,6 +17,12 @@ const Portfolio = () => {
             demo='https://simple-crm-react.herokuapp.com/'
             />
             <ProjectCard 
+            description="Discord clone [in progress] (React, React-Router, Electron)" 
+            image='./discord.png'
+            github='https://github.com/DmitriyTsay/discord-clone'
+            demo='https://discord-clone-qqn7xv286-dmitriytsay.vercel.app/'
+            />
+            <ProjectCard 
             description="Tetris game (JavaScript)" 
             image='./tetris1.png'
             github='https://github.com/DmitriyTsay/TetrisJS'
